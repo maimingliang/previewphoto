@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clipToPadding="true"
+              android:background="@color/black"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              tools:ignore="ResourceName">
+
+    <include
+        android:visibility="gone"
+        layout="@layout/photopicker_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.maiml.previewphoto.ViewPagerFixed
+        android:id="@+id/vp_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/viewpager_indicator"
+        android:background="@android:color/transparent" />
+
+    </RelativeLayout>
+</LinearLayout>

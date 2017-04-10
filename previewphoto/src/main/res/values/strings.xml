@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PreviewPhoto</string>
+    <!--图片查看器下标-->
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+</resources>
