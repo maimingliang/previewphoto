@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
         PhotoPreviewIntent intent = new PhotoPreviewIntent(this);
 
-        intent.setPhotoPaths(photos) //预览图片列表
+        intent.setPhotoPaths(photos) //预览图片对象列表
                 .setSmallWidth(width) //小图的宽
                 .setSmallHeight(height)//小图的宽
                 .setCurrentItem(position)//预览图片位置
