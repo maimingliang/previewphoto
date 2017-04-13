@@ -41,7 +41,9 @@ complime
 
 
 [glide](https://github.com/bumptech/glide)
+
 [PhotoView](https://github.com/chrisbanes/PhotoView)
+
 [RxJava](https://github.com/ReactiveX/RxJava)
 
 
