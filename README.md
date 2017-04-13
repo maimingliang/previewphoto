@@ -6,7 +6,6 @@ Android 图片预览工具
 
 #效果图
 
-![效果图](https://github.com/maimingliang/previewphoto/blob/master/002.gif)
 
 ![效果图02](https://github.com/maimingliang/previewphoto/blob/master/001.gif)
 
