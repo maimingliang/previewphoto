@@ -95,11 +95,11 @@ public class MainActivity extends AppCompatActivity {
 
         PhotoPreviewIntent intent = new PhotoPreviewIntent(this);
 
-        intent.setPhotoPaths(photos)
-                .setSmallWidth(width)
-                .setSmallHeight(height)
-                .setCurrentItem(position)
-                .setDefluatDrawble(R.drawable.ic_launcher)
+        intent.setPhotoPaths(photos) //预览图片列表
+                .setSmallWidth(width) //小图的宽
+                .setSmallHeight(height)//小图的宽
+                .setCurrentItem(position)//预览图片位置
+                .setDefluatDrawble(R.drawable.ic_launcher) //加载错误时的图片
                 .launch();
 
     }
