@@ -16,7 +16,7 @@ Android 图片预览工具
 
 ```code
 
-complime
+    compile 'com.maiml:previewphoto:1.0.0'
 
 ```
 
