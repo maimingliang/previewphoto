@@ -1,16 +1,16 @@
 # previewphoto
 
-#简介
+# 简介
 
 Android 图片预览工具
 
-#效果图
+# 效果图
 
 
 ![效果图02](https://github.com/maimingliang/previewphoto/blob/master/001.gif)
 
 
-#使用
+# 使用
 
 1. 在build.gradle 文件添加
 
@@ -36,7 +36,7 @@ Android 图片预览工具
 ```
 
 
-##Thanks
+## Thanks
 
 
 [glide](https://github.com/bumptech/glide)
@@ -46,12 +46,12 @@ Android 图片预览工具
 [RxJava](https://github.com/ReactiveX/RxJava)
 
 
-#关于我
+# 关于我
 
 [简书maimingliang](http://www.jianshu.com/users/141bda5f1c5c/latest_articles)
 
 
-#最后
+# 最后
 
 如果遇到问题或者好的建议，请反馈到我的邮箱，maimingliang8#163.com (# 换 @)
 
